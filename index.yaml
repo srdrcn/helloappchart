@@ -9,6 +9,6 @@ entries:
     name: helloworld
     type: application
     urls:
-    - https://srdrcn.github.io/helmhellochart/
+    - https://srdrcn.github.io/helmhellochart/helloworld-0.1.0.tgz
     version: 0.1.0
 generated: "2021-01-15T13:09:34.456518599Z"
