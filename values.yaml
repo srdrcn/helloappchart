@@ -49,12 +49,12 @@ ingress:
       nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: helloworld.devopstrend.com
+    - host: helmhelloworld.devopstrend.com
       paths:
       - backend:
           serviceName: helloworld
           servicePort: 11130
-        path: /helmhello     
+        path: / 
 
   #tls: []
   #  - secretName: chart-example-tls
