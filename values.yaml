@@ -8,7 +8,7 @@ image:
   repository: chosenwar/helmhelloworld
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag:{{BUILD_NUMBER}}
+  tag: {{BUILD_NUMBER}}
 
 imagePullSecrets: []
 nameOverride: ""
