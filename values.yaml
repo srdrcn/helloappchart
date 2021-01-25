@@ -54,7 +54,7 @@ ingress:
       - backend:
           serviceName: helloworld
           servicePort: 11130
-        path: /     
+        path: /helmhello     
 
   #tls: []
   #  - secretName: chart-example-tls
